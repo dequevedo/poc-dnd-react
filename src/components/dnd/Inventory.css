@@ -1,0 +1,36 @@
+.items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.items li {
+  display: flex;
+  align-items: center;
+  border-radius: .2em;
+  padding: .5em .8em .5em .5em;
+  margin-bottom: .2em;
+  background-color: #588157;
+}
+
+.items p {
+  max-width: none;
+  font-weight: bold;
+  margin: 0;
+  color: #dad7cd;
+}
+
+.items-thumb {
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  background-color: #e8e8e800;
+  padding: 0em;
+  margin-right: .5em;
+}
+
+.items-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
